@@ -1,0 +1,13 @@
+DesktopAppConverter.exe 
+    -Installer [PATH\TO\YOUR\EXE\DIRECTORY]
+    -AppExecutable [YOUR_APP_NAME].exe
+    -Destination [OUTPUT_DIRECTORY]
+    -PackageName "[PACKAGE_NAME]"
+    -Publisher "CN=[PUBLISHER_ID]"
+    -PackagePublisherDisplayName "[PUBLISHER_DISPLAY_NAME]"
+    -PackageDisplayName "[DISPLAY_NAME]"
+    -AppDisplayName "[DISPLAY_NAME]"
+    -Version [VERSION_NUMBER]
+    -MakeAppx
+    -Sign
+    -Verbose
